@@ -1,0 +1,11 @@
+*{
+	border: 1px solid lightgrey;
+}
+
+h1 + ul{
+	border: 2px solid red;
+}
+
+li:nth-of-type(odd){
+	background: purple;
+}

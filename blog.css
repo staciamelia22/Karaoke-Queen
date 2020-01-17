@@ -1,0 +1,35 @@
+body {
+	background-color: #d3ab67;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: Lobster Two, cursive;
+	border: 20px solid #4ca387;
+	padding: 20px;
+}
+
+.date{
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+h2 {
+	color: #4ca387;
+	font-size: 2.0rem;
+}
+
+.post {
+	margin-bottom: 20px;
+	color: #955c34;
+}
+
+.first {
+	border-left: 5px solid #955c34;
+	padding-left: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
