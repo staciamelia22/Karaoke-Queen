@@ -1,0 +1,155 @@
+\documentclass[margin,line]{res}
+\usepackage{url}
+\usepackage[colorlinks,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\oddsidemargin -.6in
+\evensidemargin -.5in
+\textwidth=6.4in
+\itemsep=0in
+\parsep=0in
+\topmargin .1in
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.15in}}}{\end{list}}
+\pagenumbering{gobble}
+\makeatletter
+\renewcommand*{\ps@plain}{%
+  \let\@mkboth\@gobbletwo
+  \let\@oddhead\@empty
+  \def\@oddfoot{%
+    \reset@font
+    \hfil
+    \thepage
+    % \hfil % removed for aligning to the right
+  }%
+  \let\@evenhead\@empty
+  \let\@evenfoot\@oddfoot
+}
+\makeatother
+\pagestyle{plain}
+
+\begin{document}
+
+
+\name{\huge Staci A. Berry \vspace*{.1in}}
+
+
+
+\begin{resume}
+
+\section{\sc Contact Details}
+\vspace{-.001in}
+
+\begin{tabular}{@{}p{35in}p{.55in}p{1in}}
+
+{\bf Phone: }\texttt{+}1 (512) 938 -- 9051 $|$ 
+{\bf Email: }{staciamelia22@gmail.com}
+%{\bf GitHub:} {https://github.com/staciamelia22/Karaoke-Queen}
+
+\end{tabular}
+
+\vspace*{.025in}
+
+\vspace{-.075in}
+
+\section{\sc Work\\ Experience}
+{\bf Siemens}
+\hfill{{Austin, TX}}\\
+
+\vspace{-.8cm}
+{\em Electrical Services Technician}  \hfill {{April, 2018 to Present}}\\
+\vspace{-.3cm}
+
+\begin{list1}
+\begin{list2}
+\item Provided tier II support by phone or email for energy management systems inside retail spaces
+\item Collaborated with project managers and technicians to perform checkouts of new installations of the EMS, including full testing of the onsite controls and finalizing the clients warranty agreement
+\item Verified and documented onsite deficiencies and escalated them to the project managers
+\item Resolved complex issues with either technicians or managers onsite and directed them\\ towards a solution; able to cater to the customers experience level and gave clear and concise\\ instruction during troubleshooting process
+\item Obtained comprehensive understanding of the EMS and how it controls HVAC units and onsite lighting; gained knowledge on the functionality of various HVAC systems and electrical components used in powering lighting fixtures in a retail setting
+\item  Intermediate understanding of network infrastructure, cellular modem configurations, using the\\ command line terminal and remote services
+\item Assisted integrating onsite alarm systems into the EMS controls
+\item Performed work duties within both Windows and Linux environments; gained some experience with bash scripting
+\item Attended a week-long Linux+ course
+\item  Consistently contributed to the team's internal wiki in efforts of improving our training documentation
+\end{list2}
+\end{list1}
+
+{\bf CFAN}
+\hfill{{San Marcos, TX}}\\
+
+\vspace{-.8cm}
+{\em Continuous Improvement Coach} \hfill{{January, 2015 to December, 2016}}\\
+\vspace{-.3cm}
+\begin{list1}
+\begin{list2}
+\item Worked with small teams from all departments and across all three shifts to improve efficiency in daily processes
+\item Collaborated with management and engineering to implement new processes; responsible for updating the operating procedure documentation
+\item Ran workshops and trained colleagues on continuous improvement and Lean methodologies
+\item Organized plant tours in efforts to expand the production associates’ knowledge on the overall\\ production of carbon fiber fan blades
+\end{list2}
+\end{list1}
+
+\vspace{-.01cm}
+
+%{\bf CFAN}
+%\hfill{{San Marcos, TX}}\\
+
+\vspace{-.07cm}
+{\em Production Associate} \hfill{{August, 2012 to April, 2018}}\\
+\vspace{-.3cm}
+\begin{list1}
+\begin{list2}
+\item Assisted in the manufacturing of aerospace parts that would be used in Boeing jet plane engines
+\item Cross-trained in three different departments
+\item Impeccable quality and productivity records in quarterly reviews
+\item Participated in community-based programs, including fundraising for impoverished people, donating school supplies and attending the annual Heart Walk event
+\end{list2}
+\end{list1}
+
+%\vspace*{.025in}
+
+\vspace{-.075in}
+
+%\vspace{-.1cm}
+
+\section{\sc Skills}
+\begin{list1}
+\begin{list2}
+
+\item Windows, Linux, and MAC OS environments
+\item Office 365 suite, Zendesk, and Circuit
+\item Bash scripting
+\item Remote services and cellular modems
+\item HTML, CSS, JavaScript, and Python
+\item Willing to participate in on-call rotation
+\end{list2}
+\end{list1}
+
+\section{\sc Education}
+{\bf Texas State University}
+\hfill{{San Marcos, TX}}\\
+\vspace{-.4cm}
+
+\vspace{-.4cm}
+{Bachelor of Fine Arts, with an emphasis in Studio Art}  \hfill {{August, 2008 to August, 2012}}\\
+\vspace{-.4cm}
+
+\begin{list1}
+\begin{list2}
+\item Dean's list, on the Council of Scholars, graduated Summa Cum Laude
+\end{list2}
+\end{list1}
+
+
+\end{resume}
+\end{document}
