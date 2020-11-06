@@ -2,12 +2,12 @@
 \usepackage{url}
 \usepackage[colorlinks,linkcolor=blue,urlcolor=blue]{hyperref}
 
-\oddsidemargin -.6in
+\oddsidemargin -.4in
 \evensidemargin -.5in
-\textwidth=6.4in
+\textwidth=6.0in
 \itemsep=0in
 \parsep=0in
-\topmargin .1in
+\topmargin .05in
 \newenvironment{list1}{
   \begin{list}{\ding{113}}{%
       \setlength{\itemsep}{0in}
@@ -20,7 +20,7 @@
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
       \setlength{\leftmargin}{0.15in}}}{\end{list}}
-\pagenumbering{gobble}
+%\pagenumbering{gobble}
 \makeatletter
 \renewcommand*{\ps@plain}{%
   \let\@mkboth\@gobbletwo
@@ -36,6 +36,7 @@
 }
 \makeatother
 \pagestyle{plain}
+\renewcommand{\baselinestretch}{1.15}
 
 \begin{document}
 
@@ -61,41 +62,65 @@
 
 \vspace{-.075in}
 
+%\section{\sc Statement of Intent}
+
+%{{A creative problem solver and advocate of efficiency. I thrive on a job well done and an opportunity to help connect people. I often find myself building bridges of communication between teams.}}
+
+
 \section{\sc Work\\ Experience}
 {\bf Siemens}
 \hfill{{Austin, TX}}\\
 
-\vspace{-.8cm}
-{\em Electrical Services Technician}  \hfill {{April, 2018 to Present}}\\
+\vspace{-0.9cm}
+{\em Electrical Services - Engineering Liaison}  \hfill {{October, 2020 to Present}}\\
+\vspace{-.3cm}
+
+\begin{list1}
+\begin{list2}
+\item First point of contact between the technician-on-call team and the engineering department
+\item Responsible for implementing initial programming and testing of the energy management\\ system (including HVAC, lighting, energy demand, humidity and dewpoint controls) for new clients
+\item Created documentation to communicate process updates to the rest of the team
+\item Requisitioned and organized additional training for team members as needed
+\item All job functions of electrical services technician continued to be served
+\end{list2}
+\end{list1}
+
+\vspace{-.1cm}
+{\em Electrical Services Technician}  \hfill {{April, 2018 to October, 2020}}\\
 \vspace{-.3cm}
 
 \begin{list1}
 \begin{list2}
 \item Provided tier II support by phone or email for energy management systems inside retail spaces
-\item Collaborated with project managers and technicians to perform checkouts of new installations of the EMS, including full testing of the onsite controls and finalizing the clients warranty agreement
-\item Verified and documented onsite deficiencies and escalated them to the project managers
-\item Resolved complex issues with either technicians or managers onsite and directed them\\ towards a solution; able to cater to the customers experience level and gave clear and concise\\ instruction during troubleshooting process
+\item Able to accurately build EMS site configurations per the clients standards, conforming to a vast set of client specific demands
+\item Collaborated with project managers and technicians to perform checkouts of new installations of the EMS, including full testing of the onsite controls and finalizing the clients warranty
+\item Resolved complex issues with either technicians or managers onsite and directed them towards a solution; able to cater to the customers experience level and gave clear and concise instruction during the troubleshooting process
 \item Obtained comprehensive understanding of the EMS and how it controls HVAC units and onsite lighting; gained knowledge on the functionality of various HVAC systems and electrical components used in powering lighting fixtures in a retail setting
-\item  Intermediate understanding of network infrastructure, cellular modem configurations, using the\\ command line terminal and remote services
+\item Advanced comprehension of RS485 modbus communications
+\item Gained experience with BACnet communication protocols
+\item Intermediate understanding of network infrastructure, cellular modem configurations, using the command line terminal and remote services
 \item Assisted integrating onsite alarm systems into the EMS controls
-\item Performed work duties within both Windows and Linux environments; gained some experience with bash scripting
+\item Able to complete all work within SLA restrictions and consistently performed well on monthly one-on-one evaluations
+\item Completed work duties within both Windows and Linux environments; gained some experience with bash scripting
 \item Attended a week-long Linux+ course
-\item  Consistently contributed to the team's internal wiki in efforts of improving our training documentation
+\item Participated in the on-call rotation and provided 24/7 support
 \end{list2}
 \end{list1}
 
 {\bf CFAN}
 \hfill{{San Marcos, TX}}\\
 
-\vspace{-.8cm}
+\vspace{-0.9cm}
 {\em Continuous Improvement Coach} \hfill{{January, 2015 to December, 2016}}\\
 \vspace{-.3cm}
+
 \begin{list1}
 \begin{list2}
 \item Worked with small teams from all departments and across all three shifts to improve efficiency in daily processes
 \item Collaborated with management and engineering to implement new processes; responsible for updating the operating procedure documentation
 \item Ran workshops and trained colleagues on continuous improvement and Lean methodologies
-\item Organized plant tours in efforts to expand the production associates’ knowledge on the overall\\ production of carbon fiber fan blades
+\item Organized plant tours in efforts to expand the production associates’ knowledge on the overall production of carbon fiber fan blades
+\item Co-authored a peer review survey so that we could track the overall improvement of on-the-job knowledge throughout the company
 \end{list2}
 \end{list1}
 
@@ -104,15 +129,16 @@
 %{\bf CFAN}
 %\hfill{{San Marcos, TX}}\\
 
-\vspace{-.07cm}
+\vspace{-.1cm}
 {\em Production Associate} \hfill{{August, 2012 to April, 2018}}\\
 \vspace{-.3cm}
+
 \begin{list1}
 \begin{list2}
 \item Assisted in the manufacturing of aerospace parts that would be used in Boeing jet plane engines
 \item Cross-trained in three different departments
 \item Impeccable quality and productivity records in quarterly reviews
-\item Participated in community-based programs, including fundraising for impoverished people, donating school supplies and attending the annual Heart Walk event
+\item Participated in community-based programs, including fundraising, donating school supplies and attending the annual Heart Walk event
 \end{list2}
 \end{list1}
 
@@ -131,7 +157,6 @@
 \item Bash scripting
 \item Remote services and cellular modems
 \item HTML, CSS, JavaScript, and Python
-\item Willing to participate in on-call rotation
 \end{list2}
 \end{list1}
 
@@ -140,13 +165,14 @@
 \hfill{{San Marcos, TX}}\\
 \vspace{-.4cm}
 
-\vspace{-.4cm}
+\vspace{-.5cm}
 {Bachelor of Fine Arts, with an emphasis in Studio Art}  \hfill {{August, 2008 to August, 2012}}\\
 \vspace{-.4cm}
 
 \begin{list1}
 \begin{list2}
-\item Dean's list, on the Council of Scholars, graduated Summa Cum Laude
+\item On the Dean's List and the Council of Scholars
+\item Graduated Summa Cum Laude
 \end{list2}
 \end{list1}
 
